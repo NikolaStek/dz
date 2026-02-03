@@ -1,0 +1,94 @@
+body{
+    background-color: lightgray;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: aqua;
+    border: 2px solid;
+    border-radius: 7px;
+    height: 250px;
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.card1:hover{
+    box-shadow: 0 0 23px rgba(0,0,0,9);
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.card2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: wheat;
+    border: 2px solid;
+    border-radius: 50px;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.card2:hover{
+    box-shadow: 0 0 20px gray;
+}
+
+.card3{
+    font-family:'Courier New', Courier, monospace;
+    background-color: hotpink;
+    border: 2px solid;
+    border-radius: 50px;
+    height: 300px;
+    width: 250px;
+    padding: 15px;
+}
+
+.card3:hover{
+    box-shadow: 0 0 10px purple;
+}
+
+.card4{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(80, 87, 110);
+    border: 3px solid transparent;
+    border-radius: 35px;
+    height: 250px;
+    width: 150px;
+    padding: 15px;
+    color: palegreen;
+}
+
+.card5{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:darkmagenta;
+    border: 2px solid;
+    border-radius: 100px;
+    height: 195px;
+    width: 500px;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.card6{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:brown;
+    border: 2px solid;
+    border-radius: 1000px;
+    height: 300px;
+    width: 68px;
+    margin: 10px;
+    padding: 20px;
+}
+
